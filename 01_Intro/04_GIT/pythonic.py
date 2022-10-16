@@ -18,8 +18,10 @@ print(number_list3)
 list_city = ['Tehran', 'Berlin', 'Paris', 'NY']
 list_zipcode = [25, 34, 75, 16]
 
+# Dictionary Comperhension
 dict_cities2 = {k: v for k, v in zip(list_zipcode, list_city)}
 print(dict_cities2)
 
+# More Intelligent way ToDo
 dict_cities3 = dict(zip(list_zipcode, list_city))
 print(dict_cities3)
